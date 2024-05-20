@@ -50,7 +50,7 @@ class E4Solutions extends ConsoleProgram {
 
     overallAvg = total/numberOfElements;
 
-    System.out.printf("%s %.2f \n", "The overall players average in the table is ", overallAvg);
+    System.out.printf("The overall players average in the table is %.2f \n", overallAvg);
 
     // b) Highest scoring average, year and plyaer
     double highestAvg = 0;
@@ -113,7 +113,7 @@ class E4Solutions extends ConsoleProgram {
 
       if (currAvg > currHighestAvg) {
         currHighestAvg = currAvg;
-        highestAvgYear = year;
+        highestAvgYear = year + 1;
       }
       
     }
